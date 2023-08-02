@@ -1,3 +1,8 @@
+:root {
+	--bs-link-color: #198754;
+	--bs-link-hover-color: #146c43;
+}
+
 .btn {
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #146c43;
@@ -5,6 +10,11 @@
     --bs-btn-hover-border-color: #146c43;
     --bs-btn-active-bg: #0c5734;
     --bs-btn-active-border-color: #0c5734;
+}
+
+section {
+	/* Acrescenta uma margin no topo quando usamos links ancoras, para não ficar em cima do conteúdo */
+	scroll-margin-top: 6rem;
 }
 
 main {
