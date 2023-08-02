@@ -32,3 +32,8 @@ main {
     object-fit: cover;
     object-position: center;
 }
+
+.card-menu img {
+	height: 300px;
+	object-fit: cover;
+}
