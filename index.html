@@ -354,7 +354,35 @@
 				</div>
 			</div>
 		</section>
-		
+		<section id="local" class="container text-center mb-5">
+			<!-- Button modal -->
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localModal">
+				Quero conhecer o Coffee Shop
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="localModal" tabindex="-1" aria-labelledby="localModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5" id="localModalLabel">Estamos te esperando!</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p>Rua Te Quiero Mucho, N. 269, Edf. Cupido<br>Porto Alegre/RS</p>
+							<div class="map-router">
+								<iframe style="width: 100%;" height="440" title="Cafeteria"
+									src="https://maps.google.com/maps?width=700&height=440&hl=en&q=Porto%20Alegre%2C%20Brazil+(Cafeteria)&ie=UTF8&t=&z=16&iwloc=B&output=embed">
+								</iframe>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<!-- Script  -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
